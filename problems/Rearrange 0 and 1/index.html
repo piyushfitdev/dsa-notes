@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Two Sum II Visualizer</title>
 
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<h1>Two Sum II Visualizer</h1>
+
+<div class="array-container">
+    <div id="array"></div>
+</div>
+
+<div class="pointer-row">
+    <div id="leftPointer" class="pointer">L</div>
+    <div id="rightPointer" class="pointer">R</div>
+</div>
+
+<p id="explanation"></p>
+
+<button onclick="prevStep()">⏮ Prev</button>
+<button onclick="play()">▶ Play</button>
+<button onclick="nextStep()">⏭ Next</button>
+
+<script src="steps.js"></script>
+<script src="../../player.js"></script>
+
+</body>
+</html>
