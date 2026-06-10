@@ -1,5 +1,5 @@
 let current = 0;
-
+const target = 12;
 const numbers = [2, 3, 4, 8, 11, 15];
 
 function render() {
