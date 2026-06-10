@@ -1,1 +1,63 @@
 
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+.array-container {
+    position: relative;
+    margin-top: 40px;
+}
+
+#array {
+    display: flex;
+    gap: 10px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #333;
+    border-radius: 10px;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.left-cell {
+    background: #4CAF50;
+    color: white;
+}
+
+.right-cell {
+    background: #FF9800;
+    color: white;
+}
+
+.pointer-row {
+    position: relative;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.pointer {
+    position: absolute;
+
+    width: 60px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    transition: left 0.5s ease;
+}
+
+#explanation {
+    margin-top: 25px;
+    font-size: 20px;
+}
