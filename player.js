@@ -1,6 +1,6 @@
 let current = 0;
 
-const numbers = [2, 7, 11, 15];
+const numbers = [2, 3, 4, 8, 11, 15];
 
 function render() {
 
