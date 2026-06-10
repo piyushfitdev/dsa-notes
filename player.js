@@ -10,7 +10,7 @@ function render() {
 
     let html = "";
 
-    numbers.forEach((num, idx) => {
+    step.array.forEach((num, idx) => {
 
         let cls = "cell";
 
