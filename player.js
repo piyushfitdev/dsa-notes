@@ -14,10 +14,11 @@ function render() {
 
         let cls = "cell";
 
-        if(idx === step.left)
+        if(idx === step.left && idx === step.right)
+            cls += " both-cell";
+        else if(idx === step.left)
             cls += " left-cell";
-
-        if(idx === step.right)
+        else if(idx === step.right)
             cls += " right-cell";
 
         html += `<div class="${cls}">${num}</div>`;
